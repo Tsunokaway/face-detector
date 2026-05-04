@@ -121,8 +121,8 @@ jjk-hand-signs-detector/
 
 ### 1. Clone o repositório
 ```bash
-git clone https://github.com/seu-usuario/jjk-hand-signs-detector
-cd jjk-hand-signs-detector
+git clone https://github.com/tsunokaway/face-detector
+cd face-detector
 ```
 
 ### 2. Instale as dependências
