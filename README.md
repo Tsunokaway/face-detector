@@ -175,27 +175,6 @@ streamlit run app.py
 
 ---
 
-## Estrutura do projeto
-
-- `face-detector/`
-  - `data.yaml` - configuração do conjunto de dados para treinamento e validação.
-  - `requirements.txt` - dependências Python necessárias.
-  - `data/`
-    - `images/`
-      - `train/` - imagens de treino.
-      - `val/` - imagens de validação.
-      - `test/` - imagens de teste.
-    - `labels/` - arquivos de anotação correspondentes às imagens.
-  - `notebooks/`
-    - `exploratory.ipynb` - notebook para exploração dos dados e análise inicial.
-  - `runs/` - resultados de treino e checkpoints gerados.
-  - `src/`
-    - `detect.py` - script para detecção de faces em imagens usando o modelo treinado.
-    - `train.py` - script para treinar o detector de faces.
-    - `webcam.py` - script para captura em tempo real com webcam.
-
-
-
 ## Pré-requisitos
 
 - Python 3.8+ (recomendado)
